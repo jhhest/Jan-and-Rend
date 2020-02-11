@@ -7,7 +7,7 @@ const eventRouter = require("./event/router");
 
 app.use(cors(), express.json(), eventRouter);
 
-port = 5000;
+port = 4000;
 app.listen(port, () =>
   console.log(`
 /**
