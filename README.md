@@ -1,0 +1,1 @@
+docker run -p 5432:5432 --name events-server -e POSTGRES_PASSWORD=password -d postgres
